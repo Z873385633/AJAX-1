@@ -8035,7 +8035,7 @@ var server = http.createServer(function (request, response) {
   if (path === '/index.html') {
     response.statusCode = 200;
     response.setHeader('Content-Type', 'text/html;charset=utf-8');
-    var string = Buffer("PCFET0NUWVBFIGh0bWw+DQo8aHRtbCBsYW5nPSJlbiI+DQoNCjxoZWFkPg0KICAgIDx0aXRsZT5hamF4PC90aXRsZT4NCjwvaGVhZD4NCg0KPGJvZHk+DQogICAgPGgxPkFKQVggSGVsbG8gPHNwYW4gaWQ9Im15TmFtZSI+PC9zcGFuPjwvaDE+DQogICAgPHA+DQogICAgICAgIDxidXR0b24gaWQ9ImdldENTUyI+6K+35rGCQ1NTPC9idXR0b24+DQogICAgICAgIDxidXR0b24gaWQ9ImdldEpTIj7or7fmsYJKUzwvYnV0dG9uPg0KICAgICAgICA8YnV0dG9uIGlkPSJnZXRIVE1MIj7or7fmsYJIVE1MPC9idXR0b24+DQogICAgICAgIDxidXR0b24gaWQ9ImdldFhNTCI+6K+35rGCWE1MPC9idXR0b24+DQogICAgICAgIDxidXR0b24gaWQ9ImdldEpTT04iPuivt+axgkpTT048L2J1dHRvbj4NCiAgICAgICAgPGJ1dHRvbiBpZD0iZ2V0UGFnZSI+6K+35rGC5LiL5LiA6aG1PC9idXR0b24+DQogICAgPC9wPg0KICAgIDxkaXY+e3twYWdlMX19PC9kaXY+DQogICAgPHNjcmlwdCBzcmM9Ii9zZXJ2ZXIuanMiPjwvc2NyaXB0Pg0KICAgIDxzY3JpcHQgc3JjPSIvbWFpbi5qcyI+PC9zY3JpcHQ+DQo8L2JvZHk+DQoNCjwvaHRtbD4=", "base64").toString();
+    var string = Buffer("PCFET0NUWVBFIGh0bWw+DQo8aHRtbCBsYW5nPSJlbiI+DQoNCjxoZWFkPg0KICAgIDx0aXRsZT5hamF4PC90aXRsZT4NCjwvaGVhZD4NCg0KPGJvZHk+DQogICAgPGgxPkFKQVggSGVsbG8gPHNwYW4gaWQ9Im15TmFtZSI+PC9zcGFuPjwvaDE+DQogICAgPHA+DQogICAgICAgIDxidXR0b24gaWQ9ImdldENTUyI+6K+35rGCQ1NTPC9idXR0b24+DQogICAgICAgIDxidXR0b24gaWQ9ImdldEpTIj7or7fmsYJKUzwvYnV0dG9uPg0KICAgICAgICA8YnV0dG9uIGlkPSJnZXRIVE1MIj7or7fmsYJIVE1MPC9idXR0b24+DQogICAgICAgIDxidXR0b24gaWQ9ImdldFhNTCI+6K+35rGCWE1MPC9idXR0b24+DQogICAgICAgIDxidXR0b24gaWQ9ImdldEpTT04iPuivt+axgkpTT048L2J1dHRvbj4NCiAgICAgICAgPGJ1dHRvbiBpZD0iZ2V0UGFnZSI+6K+35rGC5LiL5LiA6aG1PC9idXR0b24+DQogICAgPC9wPg0KICAgIDxkaXY+e3twYWdlMX19PC9kaXY+DQogICAgPHNjcmlwdCBzcmM9Ii9tYWluLmpzIj48L3NjcmlwdD4NCjwvYm9keT4NCg0KPC9odG1sPg==", "base64").toString();
     var page1 = Buffer("Ww0KICAgIHsNCiAgICAgICAgImlkIjogMQ0KICAgIH0sDQogICAgew0KICAgICAgICAiaWQiOiAyDQogICAgfSwNCiAgICB7DQogICAgICAgICJpZCI6IDMNCiAgICB9LA0KICAgIHsNCiAgICAgICAgImlkIjogNA0KICAgIH0sDQogICAgew0KICAgICAgICAiaWQiOiA1DQogICAgfSwNCiAgICB7DQogICAgICAgICJpZCI6IDYNCiAgICB9LA0KICAgIHsNCiAgICAgICAgImlkIjogNw0KICAgIH0sDQogICAgew0KICAgICAgICAiaWQiOiA4DQogICAgfSwNCiAgICB7DQogICAgICAgICJpZCI6IDkNCiAgICB9LA0KICAgIHsNCiAgICAgICAgImlkIjogMTANCiAgICB9DQpd", "base64").toString();
     var array = JSON.parse(page1);
     var result = array.map(function (item) {
@@ -8096,4 +8096,4 @@ var server = http.createServer(function (request, response) {
 server.listen(port);
 console.log('监听 ' + port + ' 成功\n请用在空中转体720度然后用电饭煲打开 http://localhost:' + port);
 },{"http":"dGkM","fs":"I75F","url":"Oq1O","process":"hMJm","buffer":"IKRO"}]},{},["eMEv"], null)
-//# sourceMappingURL=server.2aa5eea0.js.map
+//# sourceMappingURL=server.js.map
