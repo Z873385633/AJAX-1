@@ -41,13 +41,12 @@ getXML.onclick = () => {
 getHTML.onclick = () => {
     const request = new XMLHttpRequest();
     request.open('GET', '/3.html')
-    request.onload = () => {
-        const div = document.createElement('div') //创建div
-        div.innerHTML = request.response  //填写内容
-        document.body.appendChild(div)  //插到body里
-    }
-    request.onerror = () => {
-        console.log('失败了')
+    request.onreadystatechange = () => {
+        if (request.readyState === 4 && request.status === 200) {
+            const div = document.createElement('div')
+            div.innerHTML = request.response
+            document.body.appendChild(div)
+        }
     }
     request.send()
 }
